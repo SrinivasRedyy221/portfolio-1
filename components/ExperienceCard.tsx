@@ -27,14 +27,14 @@ const ExperienceCard = (props: Props) => {
         <Image
           className="rounded-full h-32 w-32 xl:w-[200px] xl:h-[200px] object-cover object-center"
           alt=""
-          src="/vishnu.jpg"
+          src="/srinivasport.jpg"
           height="1000"
           width="1000"
         ></Image>
       </motion.div>
       <div className="px-0 md:px-10">
-        <div className="text-4xl font-light">CEO of Vinod-sarees</div>
-        <div className="font-bold text-2xl mt-1">Vishnu</div>
+        <div className="text-4xl font-light">portfolio website</div>
+        <div className="font-bold text-2xl mt-1">Srinivas</div>
         <div className="">Tech used... will display icons</div>
         <div className="uppercase text-gray-300">
           Started Working... -Ended...

@@ -25,17 +25,17 @@ const Header = (props: Props) => {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://github.com/vishnuvirat"
+          url="https://github.com"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.facebook.com/vishnu.chiluveri.3"
+          url="https://www.facebook.com"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/vishnu-chiluveri-270669205/"
+          url="https://www.linkedin.com"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -58,14 +58,14 @@ const Header = (props: Props) => {
           className="flex flex-row items-center"
         >
           <SocialIcon
-            url="https://www.instagram.com/_bad_captain__0_0/?next=%2Fgdsc_au%2F"
+            url="https://www.instagram.com"
             fgColor="gray"
             bgColor="transparent"
           />
 
           <Link href='#contact'>
             <SocialIcon
-              url="https://mail.google.com/mail/u/0/#inbox"
+              url="https://mail.google.com"
               fgColor="gray"
               bgColor="transparent"
             />

@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
       <BackgroundCircle />
       <Image
         className="relative rounded-full mx-auto object-cover h-32 w-32"
-        src="/vishnu.jpg"
+        src="/srinivasport.jpg"
         height="500"
         width="500"
         alt=""
@@ -26,9 +26,9 @@ const Hero = (props: Props) => {
           <Typewriter
             options={{
               strings: [
-                "Hi! I'm Vishnu",
-                "Code Blooded",
-                "But Loves To Code more",
+                "Hi! I'm Srinivas",
+                "enthusiastic",
+                "But Loves To explore more",
               ],
               autoStart: true,
               loop: true,

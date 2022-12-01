@@ -18,7 +18,7 @@ const Skill = ({ directionLeft }: Props) => {
         whileInView={{ opacity: 1, x: 0 }}
       >
         <Image
-          src="/vishnu.jpg"
+          src="/srinivasport.jpg"
           alt=""
           height="1000"
           width="1000"
