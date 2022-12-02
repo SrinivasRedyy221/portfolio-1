@@ -1,4 +1,4 @@
-import { Skill } from "../pages/api/typings";
+/*import { Skill } from "../pages/api/typings";
 
 export const fetchSkills = async() => {
   const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/getSkills`);
@@ -11,4 +11,4 @@ export const fetchSkills = async() => {
 
   return skills;
   
-}
+}*/
