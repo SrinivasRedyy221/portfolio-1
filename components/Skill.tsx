@@ -18,7 +18,7 @@ const Skill = ({ directionLeft }: Props) => {
         whileInView={{ opacity: 1, x: 0 }}
       >
         <Image
-          src="https://c8.alamy.com/comp/CPNCC5/captain-america-the-first-avenger-CPNCC5.jpg"
+          src="/srinivasport.jpg"
           alt=""
           height="1000"
           width="1000"
