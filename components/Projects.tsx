@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-const Projects = (_props: Props) => {
+const Projects = (props: Props) => {
   const projects = [1, 2, 3, 4, 5];
   return (
     <>
