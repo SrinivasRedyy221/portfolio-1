@@ -26,7 +26,7 @@ const Projects = (props: Props) => {
                 transition={{ duration: 1.5 }}
                 viewport={{ once: true }}
               >
-                <Image src="/srinivasport.jpg" alt="" width="200" height="200" />
+                <Image src="https://c8.alamy.com/comp/CPNCC5/captain-america-the-first-avenger-CPNCC5.jpg" alt="" width="200" height="200" />
               </motion.div>
               <div className="text-4xl font-sans font-semibold">
                 <div>Case Study {i + 1} of 0: UPS Clone </div>

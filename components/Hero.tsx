@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
       <BackgroundCircle />
       <Image
         className="relative rounded-full mx-auto object-cover h-32 w-32"
-        src="/srinivasport.jpg"
+        src="https://c8.alamy.com/comp/CPNCC5/captain-america-the-first-avenger-CPNCC5.jpg"
         height="500"
         width="500"
         alt=""
