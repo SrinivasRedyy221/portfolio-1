@@ -16,7 +16,7 @@ const Skills = (props: Props) => {
         Skills
       </motion.div>
       <div className="text-sm absolute top-36 uppercase text-gray-500 tracking-[3px]">
-        Hover over a skill for currency profiency
+        Hover over a skill for currenct profiency
       </div>
       <div className="grid grid-cols-4 gap-6">
         <Skill />
@@ -26,13 +26,7 @@ const Skills = (props: Props) => {
         <Skill />
         <Skill />
         <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        
-        
-        
-    
+        <Skill />    
       </div>
     </div>
   );
