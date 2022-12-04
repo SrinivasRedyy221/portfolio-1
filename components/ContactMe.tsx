@@ -14,7 +14,7 @@ type Props = {};
 const ContactMe = (props: Props) => {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (FormData) => {
-    window.location.href = `mailto:vishnuviratkohli5@gmail.com?subject=${FormData.subject}&body=Hi, my name is ${FormData.name} ${FormData.message} (${FormData.email})`;
+    window.location.href = `mailto:piserla.srinivas@gmail.com?subject=${FormData.subject}&body=Hi, my name is ${FormData.name} ${FormData.message} (${FormData.email})`;
   };
 
   return (
@@ -24,22 +24,22 @@ const ContactMe = (props: Props) => {
       </div>
       <div className="flex flex-col space-y-10">
         <div className="text-4xl font-semibold text-center">
-          I Have got just what you need
+          I got just what you need
         </div>
       </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className=" text-[#F7AB0A] h-7 w-7 animate-pluse " />
-            <div className="text-2xl">+91 7995803197</div>
+            <div className="text-2xl">+91 6301812407</div>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="animate-pluse text-[#F7AB0A] h-7 w-7 " />
-            <div className="text-2xl">vishnuchiluveri5@gmail.com</div>
+            <div className="text-2xl">piserla.srinivas@gmail.com</div>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="animate-pluse text-[#F7AB0A] h-7 w-7 " />
-            <div className="text-2xl">123 Ibrahimpatnam</div>
+            <div className="text-2xl">Hayathnagar Hyderabad</div>
           </div>
         </div>
         <div className="flex flex-col w-fit mx-auto space-y-2">
