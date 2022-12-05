@@ -58,7 +58,7 @@ const Header = (props: Props) => {
           className="flex flex-row items-center"
         >
           <SocialIcon
-            url="https://www.instagram.com"
+            url="https://www.instagram.com/srinivas_reddy__/?next=%2F"
             fgColor="gray"
             bgColor="transparent"
           />
