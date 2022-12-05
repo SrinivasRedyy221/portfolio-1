@@ -27,7 +27,7 @@ const Projects = (props: Props) => {
                 transition={{ duration: 1.5 }}
                 viewport={{ once: true }}
               >
-                <Image src="/srinivasport.jpg" alt="" width="200" height="200" />
+                <Image src="/favicon1.ico" alt="" width="200" height="200" />
               </motion.div>
               <div className="text-4xl font-sans font-semibold">
                 <div>Case Study {i + 1} of 0: UPS Clone </div>
