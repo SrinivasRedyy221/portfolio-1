@@ -33,11 +33,8 @@ const Projects = (props: Props) => {
                 <div>Case Study {i + 1} of 0: UPS Clone </div>
               </div>
               <div className="text-lg text-center md:text-left">
-                Lorem ipsum, or lipsum as it is sometimes known, is dummy text
-                used in laying out print, graphic or web designs. The passage is
-                attributed to an unknown typesetter in the 15th century who is
-                thought to have scrambled parts of Cicero De Finibus Bonorum
-                et Malorum for use in a type specimen book.
+                Created a Realestate website using react for my fathers bussiness.which is resposive and a frontend application.
+                Ill further add the backend to the code which helps in retriving the properties from the backend.
               </div>
             </div>
           ))}
