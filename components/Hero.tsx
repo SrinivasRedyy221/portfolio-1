@@ -27,8 +27,8 @@ const Hero = (props: Props) => {
             options={{
               strings: [
                 "Hi! Im Srinivas",
-                "enthusiastic",
-                "But Loves To explore more",
+                "Enthusiastic",
+                "Also Loves To explore more",
               ],
               autoStart: true,
               loop: true,
