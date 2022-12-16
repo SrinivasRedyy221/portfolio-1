@@ -33,7 +33,7 @@ const Projects = (props: Props) => {
                 <div>Case Study {i + 1} of 0: UPS Clone </div>
               </div>
               <div className="text-lg text-center md:text-left">
-                Created aRealestatewebsite using react for my fathers bussiness.which is resposive and a frontend application.
+                Created a Realestate website using react for my fathers bussiness.which is resposive and a frontend application.
                 Ill further add the backend to the code which helps in retriving the properties from the backend.
               </div>
             </div>
