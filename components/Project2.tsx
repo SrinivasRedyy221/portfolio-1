@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 type Props = {};
 
-const Project = (props : Props) => {
+const Project2 = (props : Props) => {
   return (
         <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
           <motion.div
@@ -13,17 +13,16 @@ const Project = (props : Props) => {
               transition={{ duration: 1.5 }}
               viewport={{ once: true }}
           >
-              <Image src="/favicon1.ico" alt="" width="200" height="200" />
+              <Image src="/favicon2.ico" alt="" width="200" height="200" />
 
       </motion.div><div className="text-4xl font-sans font-semibold">
-              <div><a href="https://pjrrealestate.netlify.app/">PJR real estate website</a></div>
+              <div><a href="https://codes-xi.vercel.app/">CodeS -Your coding AI</a></div>
           </div><div className="text-lg text-center md:text-left">
-              ● Developed a Single page Website for my Fathers Business using Reactjs.
-              ● Which brought up the sales by 30% providing reliability on the business.
-              ● It's a Frontend web application deployed on Netlify.
-              ● TECH USED: HTML | CSS | ReactJS
+          ● It is a Replica of Chatgpt which internally calls openAI API to fetch the Output for the Prompt input.
+          ● Developed using Vanilla JS and OpenAI API.Deployed on Versel.
+          ● TECH USED: HTML | CSS | JavaScript | Vanilla JS | OpenAI API
           </div>
         </div>
   )
 }
-export default Project;
+export default Project2;

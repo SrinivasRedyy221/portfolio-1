@@ -1,5 +1,6 @@
 import React from "react";
-import Project from "./Project";
+import Project1 from "./Project1";
+import Project2 from "./Project2";
 import { motion } from "framer-motion";
 
 
@@ -18,8 +19,8 @@ const Projects = (props : Props) => {
           Projects
         </div>
         <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
-            <Project />
-            <Project />
+            <Project1 />
+            <Project2 />
         </div>
         <div className="w-full absolute top-[30%] bg-[#F7AB0A] left-0 h-[500px] -skew-y-12 opacity-10"></div>
       </motion.div>
