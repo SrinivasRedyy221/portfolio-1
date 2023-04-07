@@ -20,7 +20,7 @@ const Project2 = (props : Props) => {
           </div><div className="text-lg text-center md:text-left">
           ● It is a Replica of Chatgpt which internally calls openAI API to fetch the Output for the Prompt input.
           ● Developed using Vanilla JS and OpenAI API.Deployed on Versel.
-          ● TECH USED: HTML | CSS | JavaScript | Vanilla JS | OpenAI API
+          ● TECH USED: HTML CSS JavaScript Vanilla JS OpenAI API
           </div>
         </div>
   )

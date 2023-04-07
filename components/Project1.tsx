@@ -21,7 +21,7 @@ const Project1 = (props : Props) => {
               ● Developed a Single page Website for my Fathers Business using Reactjs.
               ● Which brought up the sales by 30% providing reliability on the business.
               ● Its a Frontend web application deployed on Netlify.
-              ● TECH USED: HTML | CSS | ReactJS
+              ● TECH USED: HTML CSS ReactJS
           </div>
         </div>
   )
