@@ -9,26 +9,7 @@ import Projects from "../components/Projects";
 import ContactMe from "../components/ContactMe";
 import Image from "next/image";
 import Link from "next/link";
-/*import {
-  PageInfo,
-  Experience,
-  Project,
-  Skill,
-  Socials,
-} from "../pages/api/typings";
-import { fetchPageInfo } from "../utils/fetchPageInfo";
-import { fetchExperience } from "../utils/fetchExperience";
-import { fetchSkills } from "../utils/fetchSkills";
-import { fetchProjects } from "../utils/fetchProjects";
-import { fetchSocials } from "../utils/fetchSocials";*/
 
-/*type Props = {
-  /*pageInfo: PageInfo;
-  experiences: Experience[];
-  skills: Skill[];
-  projects: Project[];
-  socials: Socials[];
-};*/
 
 const Home:NextPage = () => {
   return (
