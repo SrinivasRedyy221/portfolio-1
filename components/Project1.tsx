@@ -20,7 +20,7 @@ const Project1 = (props : Props) => {
           </div><div className="text-lg text-center md:text-left">
               ● Developed a Single page Website for my Fathers Business using Reactjs.
               ● Which brought up the sales by 30% providing reliability on the business.
-              ● It's a Frontend web application deployed on Netlify.
+              ● Its a Frontend web application deployed on Netlify.
               ● TECH USED: HTML | CSS | ReactJS
           </div>
         </div>
