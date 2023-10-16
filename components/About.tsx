@@ -44,7 +44,7 @@ const About = (props: Props) => {
           Fullstack Webdeveloper...
         </div>
         <div className="text-sm md:max-w-7xl md:mx-auto">
-          Seeking a challenging position in a reputable organization to expand and utilize my learning,skills and knowledge in coding.posses excellent communication skills and have an eye to detail.flexable to work in any environment as required...
+        I am in pursuit of an invigorating role within a esteemed organization, poised to amplify and harness my acquired learning, skills, and coding acumen. Proficient in communication, I possess an astute attention to detail and exhibit remarkable adaptability, readily embracing diverse work landscapes as needed. My portfolio encapsulates this essence.
         </div>
       </div>
     </div>

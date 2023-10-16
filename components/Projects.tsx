@@ -18,7 +18,10 @@ const Projects = (props : Props) => {
         <div className="absolute tracking-[20px] uppercase top-24 text-gray-500 text-2xl">
           Projects
         </div>
-        <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
+        <div className="text-sm absolute top-36 uppercase text-gray-500 tracking-[3px]">
+        Click on title to view project demo
+      </div>
+        <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
             <Project1 />
             <Project2 />
         </div>

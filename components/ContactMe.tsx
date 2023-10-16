@@ -22,13 +22,8 @@ const ContactMe = (props: Props) => {
       <div className="uppercase tracking-[20px] text-gray-500 top-24 absolute text-2xl">
         Contact
       </div>
-      <div className="flex flex-col space-y-10">
-        <div className="text-4xl font-semibold text-center">
-          I got just what you need
-        </div>
-      </div>
-      <form onSubmit={handleSubmit(onSubmit)}>
-        <div className="space-y-10">
+      
+        <div className="space-y-10 pt-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className=" text-[#F7AB0A] h-7 w-7 animate-pluse " />
             <div className="text-2xl">+91 6301812407</div>
@@ -39,10 +34,11 @@ const ContactMe = (props: Props) => {
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <MapPinIcon className="animate-pluse text-[#F7AB0A] h-7 w-7 " />
-            <div className="text-2xl">Hayathnagar Hyderabad</div>
+            <div className="text-2xl">Hyderabad</div>
           </div>
         </div>
-        <div className="flex flex-col w-fit mx-auto space-y-2">
+        <form onSubmit={handleSubmit(onSubmit)}>
+        <div className="flex flex-col w-full mx-auto space-y-2 pt-5">
           <div className="flex space-x-2">
             <input
               {...register("name")}

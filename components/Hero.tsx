@@ -20,15 +20,16 @@ const Hero = (props: Props) => {
 
       <div className="z-20">
         <div className="text-sm uppercase tracking-[15px] text-gray-500 pb-2">
-          Programmer and a Devloper
+        Programmer and  A Developer
         </div>
         <div className="text-4xl lg:text-6xl font-semibold tracking-wide">
           <Typewriter
             options={{
               strings: [
                 "Hi! Im Srinivas",
-                "Enthusiastic",
+                "Enthusiastic Developer",
                 "Also Loves To explore more",
+                "And a Good Learner",
               ],
               autoStart: true,
               loop: true,
@@ -40,7 +41,7 @@ const Hero = (props: Props) => {
           <Link href='#about'><button className="herobutton">About</button></Link>
           <Link href='#experience'><button className="herobutton">Experience</button></Link>
           <Link href='#skills'><button className="herobutton">Skills</button></Link>
-          <Link href='#projecs'><button className="herobutton">Projects</button></Link>
+          <Link href='#projects'><button className="herobutton">Projects</button></Link>
         </div>
       </div>
     </div>
