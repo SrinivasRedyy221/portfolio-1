@@ -12,7 +12,7 @@ const Skill8 = ({ directionLeft }: Props) => {
       <motion.div
         initial={{
           x: directionLeft ? -200 : 200,
-          opacity: 0,
+          opacity: 1,
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}

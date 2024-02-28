@@ -24,9 +24,9 @@ const Home:NextPage = () => {
       <div id="about" className="snap-center">
         <About />
       </div>
-      <div id="experience" className="snap-center">
+      {/* <div id="experience" className="snap-center">
         <WorkExperience />
-      </div>
+      </div> */}
       <div id="skills" className="snap-start">
         <Skills />
       </div>

@@ -17,7 +17,16 @@ const Project2 = (props : Props) => {
 
       </motion.div><div className="text-4xl font-sans font-semibold">
               <div><a href="https://codes-xi.vercel.app/">CodeS -Your coding AI</a></div>
-          </div><div className="text-lg text-center md:text-left">
+              <div className="flex pt-2">
+        <button className="flex flex-row bg-gray-800 hover:bg-gray-500 text-white py-1 px-1 ml-6 rounded-full">
+            <a href="https://pjrrealestate.netlify.app/">Visit</a>
+        </button>
+        <button className="flex flex-row bg-gray-800 hover:bg-gray-500 text-white py-1 px-1 ml-2 rounded-full">
+            <a href="https://github.com/SrinivasRedyy221/portfolio-1">Github</a>
+        </button>
+        </div>
+          </div>
+          <div className="text-lg text-center md:text-left">
           ● It is a Replica of Chatgpt which internally calls openAI API to fetch the Output for the Prompt input.
           ● Developed using Vanilla JS and OpenAI API.Deployed on Versel.
           ● TECH USED: HTML CSS JavaScript Vanilla JS OpenAI API

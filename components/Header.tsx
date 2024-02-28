@@ -25,7 +25,7 @@ const Header = (props: Props) => {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://github.com"
+          url="https://github.com/SrinivasRedyy221"
           fgColor="gray"
           bgColor="transparent"
         />
@@ -35,7 +35,7 @@ const Header = (props: Props) => {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com"
+          url="https://www.linkedin.com/in/srinivas-reddy221/"
           fgColor="gray"
           bgColor="transparent"
         />

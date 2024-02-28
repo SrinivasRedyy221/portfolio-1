@@ -15,9 +15,21 @@ const Project1 = (props : Props) => {
           >
               <Image src="/favicon1.ico" alt="" width="200" height="200" />
 
-      </motion.div><div className="text-4xl font-sans font-semibold">
-              <div><a href="https://pjrrealestate.netlify.app/">PJR real estate website</a></div>
-          </div><div className="text-lg text-center md:text-left">
+      </motion.div><div className="text-4xl font-sans font-semibold flex flex-col md:flex-row md:items-center md:justify-start">
+    <div>
+        <a href="">PJR real estate website</a>
+    </div>
+    <div className="flex pt-2">
+        <button className="flex flex-row bg-gray-800 hover:bg-gray-500 text-white py-1 px-1 ml-6 rounded-full">
+            <a href="https://pjrrealestate.netlify.app/">Visit</a>
+        </button>
+        <button className="flex flex-row bg-gray-800 hover:bg-gray-500 text-white py-1 px-1 ml-2 rounded-full">
+            <a href="https://github.com/SrinivasRedyy221/portfolio-1">Github</a>
+        </button>
+        </div>
+</div>
+
+          <div className="text-lg text-center md:text-left">
               ● Developed a Single page Website for my Fathers Business using Reactjs.
               ● Which brought up the sales by 30% providing reliability on the business.
               ● Its a Frontend web application deployed on Netlify.
